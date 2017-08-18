@@ -1,0 +1,12 @@
+D:\database_app\Database_AppLab1\Database_AppLab1\bin\Debug\Database_AppLab1.exe.config
+D:\database_app\Database_AppLab1\Database_AppLab1\bin\Debug\Database_AppLab1.exe
+D:\database_app\Database_AppLab1\Database_AppLab1\bin\Debug\Database_AppLab1.pdb
+D:\database_app\Database_AppLab1\Database_AppLab1\bin\Debug\Database_AppLab1.xml
+D:\database_app\Database_AppLab1\Database_AppLab1\obj\Debug\Database_AppLab1.vbprojResolveAssemblyReference.cache
+D:\database_app\Database_AppLab1\Database_AppLab1\obj\Debug\Database_AppLab1.Form1.resources
+D:\database_app\Database_AppLab1\Database_AppLab1\obj\Debug\Database_AppLab1.Resources.resources
+D:\database_app\Database_AppLab1\Database_AppLab1\obj\Debug\Database_AppLab1.vbproj.GenerateResource.Cache
+D:\database_app\Database_AppLab1\Database_AppLab1\obj\Debug\Database_AppLab1.exe
+D:\database_app\Database_AppLab1\Database_AppLab1\obj\Debug\Database_AppLab1.xml
+D:\database_app\Database_AppLab1\Database_AppLab1\obj\Debug\Database_AppLab1.pdb
+D:\database_app\Database_AppLab1\Database_AppLab1\obj\Debug\Database_AppLab1.Calculator.resources
