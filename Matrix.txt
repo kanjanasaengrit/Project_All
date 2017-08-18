@@ -1,0 +1,129 @@
+Public Class MatrixForm
+
+    Dim Array_A(2, 2), Array_B(2, 2) As Integer
+
+    Function AddMatrix(ByVal A(,) As Integer, ByVal B(,) As Integer) As Array
+        Dim sumAB(2, 2) As Integer
+        For i = 0 To A.GetLength(1) - 1
+            For j = 0 To A.GetLength(1) - 1
+                sumAB(i, j) = A(i, j) + B(i, j)
+            Next
+        Next
+        Return sumAB
+    End Function
+
+    Private Function SubMatrix(ByVal A(,) As Integer, ByVal B(,) As Integer) As Array
+        Dim sumAB(2, 2) As Integer
+        For i = 0 To A.GetLength(1) - 1
+            For j = 0 To A.GetLength(1) - 1
+                sumAB(i, j) = A(i, j) - B(i, j)
+            Next
+        Next
+        Return sumAB
+    End Function
+
+    Function FMin(ByVal A(,) As Integer, ByVal B(,) As Integer) As String
+
+        Dim MinA = A(0, 0)
+        Dim MinB = B(0, 0)
+        Dim ai = 0
+        Dim aj = 0
+        Dim bi = 0
+        Dim bj = 0
+        For i = 0 To A.GetLength(1) - 1
+            For j = 0 To A.GetLength(1) - 1
+                If A(i, j) < MinA Then
+                    MinA = A(i, j)
+                    ai = i + 1
+                    aj = j + 1
+                End If
+
+                If B(i, j) < MinB Then
+                    MinB = B(i, j)
+                    bi = i + 1
+                    bj = j + 1
+                End If
+            Next
+        Next
+        Dim str = "Min value of Matrix A: A[" & ai & "," & aj & "] = " & MinA
+        str += vbCrLf & "Min value of Matrix B: B[" & bi & "," & bj & "] = " & MinB
+        Return str
+    End Function
+    Function FMax(ByVal A(,) As Integer, ByVal B(,) As Integer) As String
+        Dim MaxA = A(0, 0)
+        Dim MaxB = B(0, 0)
+        Dim ai = 0
+        Dim aj = 0
+        Dim bi = 0
+        Dim bj = 0
+        For i = 0 To A.GetLength(1) - 1
+            For j = 0 To A.GetLength(1) - 1
+                If A(i, j) > MaxA Then
+                    MaxA = A(i, j)
+                    ai = i + 1
+                    aj = j + 1
+                End If
+
+                If B(i, j) > MaxB Then
+                    MaxB = B(i, j)
+                    bi = i + 1
+                    bj = j + 1
+                End If
+            Next
+        Next
+        Dim str = "Max value of Matrix A: A[" & ai & "," & aj & "] = " & MaxA
+        str += vbCrLf & "Max value of Matrix B: B[" & bi & "," & bj & "] = " & MaxB
+        Return str
+    End Function
+    Sub Show_matrix(ByVal result(,) As Integer)
+        Dim resultMatrix As String = ""
+        resultMatrix &= "Matrix Result" & vbCrLf & vbCrLf
+
+        For i = 0 To result.GetLength(1) - 1
+            For j = 0 To result.GetLength(1) - 1
+                resultMatrix &= result(i, j) & "  "
+            Next
+            resultMatrix &= vbCrLf
+        Next
+        MessageBox.Show(resultMatrix, "Result", MessageBoxButtons.OK)
+    End Sub
+
+    Sub InputdataArrayA()
+        Array_A = {{TxtB_A1.Text, TxtB_A2.Text, TxtB_A3.Text},
+               {TxtB_A4.Text, TxtB_A5.Text, TxtB_A6.Text},
+               {TxtB_A7.Text, TxtB_A8.Text, TxtB_A9.Text}}
+    End Sub
+    Sub InputdataArrayB()
+        Array_B = {{TxtB_B1.Text, TxtB_B2.Text, TxtB_B3.Text},
+            {TxtB_B4.Text, TxtB_B5.Text, TxtB_B6.Text},
+            {TxtB_B7.Text, TxtB_B8.Text, TxtB_B9.Text}}
+    End Sub
+
+
+    Private Sub btn_calculate_Click(sender As Object, e As EventArgs) Handles btn_calculate.Click
+
+        InputdataArrayA()
+        InputdataArrayB()
+
+        If RadioBtn_add.Checked Then
+            Show_matrix(AddMatrix(Array_A, Array_B))
+        ElseIf RadioBtn_sub.Checked Then
+            Show_matrix(SubMatrix(Array_A, Array_B))
+        Else
+            MessageBox.Show("Please select : + RadioButton", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+        End If
+
+    End Sub
+
+    Private Sub btn_min_Click(sender As Object, e As EventArgs) Handles btn_min.Click
+        InputdataArrayA()
+        InputdataArrayB()
+        MessageBox.Show(FMin(Array_A, Array_B), "Result", MessageBoxButtons.OK)
+    End Sub
+
+    Private Sub btn_max_Click(sender As Object, e As EventArgs) Handles btn_max.Click
+        InputdataArrayA()
+        InputdataArrayB()
+        MessageBox.Show(FMax(Array_A, Array_B), "Result", MessageBoxButtons.OK)
+    End Sub
+End Class
