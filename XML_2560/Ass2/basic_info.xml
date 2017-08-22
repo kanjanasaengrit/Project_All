@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="basic_info.css" ?>
+<std1:Students xmlns:std1="http://jacksonelec.com/basic_info">
+	<std1:StudentID>583020377-5</std1:StudentID>
+	<std1:Major> Information Communication and Technology (ICT)</std1:Major>
+	<std1:StudentYear>3</std1:StudentYear>
+	<std1:Name>Miss  Kanjana  Saengrit</std1:Name>
+	<std1:Address>Dorm 13 Khonkaen University</std1:Address>
+	<std1:Email>S.kanjana@kkumail.com</std1:Email>
+</std1:Students>

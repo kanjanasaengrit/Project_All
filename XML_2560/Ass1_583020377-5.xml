@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2011 sp1 (http://www.altova.com) by End User (free.org) -->
+<Student>
+	<StudentID>583020377-5</StudentID>
+	<Major>ICT</Major>
+	<Name NameTitle="Miss" FirstName="Kanjana" LastName="Saengrit"/>
+	<Address StudentAddress="Khonkaen" E-mail="S.kanjana@kkumail.com"/>
+	<HistoryEducations>
+		<HistoryEducation PlaceEducation="ร.ร.บ้านทุ่งปลากัด อ.สว่างแดนดิน จ.สกลนคร" YearOfStudy="2546" YearOfGraduation="2552" GPA="3.73"/>
+		<HistoryEducation PlaceEducation="ร.ร.เจริญศิลป์ศึกษา อ.เจริญศิลป์ จ.สกลนคร" YearOfStudy="2552" YearOfGraduation="2557" GPA="3.58"/>
+	</HistoryEducations>
+	<FavoriteSujects>
+		<Subject SubjectID="322212" SubjectName="Data Structure โครงสร้างข้อมูล"/>
+		<Subject SubjectID="322336" SubjectName="Database System and Design ระบบฐานข้อมูลและการออกแบบ"/>
+	</FavoriteSujects>
+	<ComputerLanguage>
+		<Language LanguageName="SQL" Standard="Good"/>
+		<Language LanguageName="HTML" Standard="Good"/>
+	</ComputerLanguage>
+	<Talent KindTalent="กีฬาเปตอง" Explain="เคยเป็นนักกีฬาของโรงเรียนตอนอยู่มัธยมปลาย"/>
+	<ReceivedAwards Date="05/06/2560" KindAward="จิตอาสา" NameAward="ค่ายวิทยาศาสตร์ ณ โรงเรียนเขวาไร่ศึกษา จ.มหาสารคาม"/>
+	<DreamJob>อยากจะเป็นนักวิเคราะห์และออกแบบระบบ และรับข้าราชการ</DreamJob>
+</Student>

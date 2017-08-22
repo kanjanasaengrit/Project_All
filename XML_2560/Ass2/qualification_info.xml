@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="qualification_info.css" ?>
+<std2:Student xmlns:std2="http://jacksonelec.com/qualification_info">
+	<std2:HistoryEducations>
+		<std2:HistoryEducation> ร.ร.บ้านทุ่งปลากัด อ.สว่างแดนดิน จ.สกลนคร
+		<std2:YearS>2546</std2:YearS>
+			<std2:YearG>2552</std2:YearG>
+			<std2:GPA>3.73</std2:GPA>
+		</std2:HistoryEducation>
+		<std2:HistoryEducation> ร.ร.เจริญศิลป์ศึกษา อ.เจริญศิลป์ จ.สกลนคร
+		<std2:YearS>2552</std2:YearS>
+			<std2:YearG>2557</std2:YearG>
+			<std2:GPA>3.58</std2:GPA>
+		</std2:HistoryEducation>
+	</std2:HistoryEducations>
+	<std2:FavoriteSujects>
+		<std2:SubjectID>322212
+		<std2:SubjectName>Data Structure โครงสร้างข้อมูล</std2:SubjectName>
+		</std2:SubjectID>
+		<std2:SubjectID>322336
+		<std2:SubjectName>Database System and Design ระบบฐานข้อมูลและการออกแบบ</std2:SubjectName>
+		</std2:SubjectID>
+	</std2:FavoriteSujects>
+	<std2:ComputerLanguage>
+		<std2:LanguageName>SQL
+		<std2:Standard>Good</std2:Standard>
+		</std2:LanguageName>
+		<std2:LanguageName>HTML
+		 <std2:Standard>Good</std2:Standard>
+		</std2:LanguageName>
+	</std2:ComputerLanguage>
+	<std2:Talent>กีฬาเปตอง
+	<std2:Explain>เคยเป็นนักกีฬาของโรงเรียนตอนอยู่มัธยมปลาย</std2:Explain>
+	</std2:Talent>
+	<std2:Date>05/06/2560
+	 <std2:KindAward>ด้านจิตอาสา</std2:KindAward>
+		<std2:NameAward>ค่ายวิทยาศาสตร์ ณ โรงเรียนเขวาไร่ศึกษา จ.มหาสารคาม</std2:NameAward>
+	</std2:Date>
+	<std2:DreamJob>อยากจะเป็นนักวิเคราะห์และออกแบบระบบ และรับข้าราชการ</std2:DreamJob>
+</std2:Student>

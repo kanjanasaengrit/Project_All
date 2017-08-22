@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="model.css" ?>
+<model>
+	<title>Laser4C (PR205)</title>
+	<description>Entry level color laser printer</description>
+	<type>color laser</type>
+	<ordered>320</ordered>
+
+
+
+</model>

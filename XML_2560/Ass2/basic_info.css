@@ -1,0 +1,73 @@
+Students
+      {font-family: Arial, Helvetica, sans-serif; font-size: 12pt}
+
+StudentID, Major,StudentYear,Name, Address,Email
+      {display: block; padding: 2px; margin: 5px; color: blue;
+       border: 1px solid black; background-color: ivory}
+
+StudentID
+      {width: 150px}
+
+Major
+      {width: 250px}
+
+Name
+      {width: 150px}
+
+Address 
+      {width: 50px}
+
+Email
+      {width: 50px}
+
+@namespace std1 url(http://jacksonelect.com/basic_info);
+std1|Students
+      {font-family: Arial, Helvetica, sans-serif; font-size: 12pt}
+
+std1|StudentID, std1|Major,std1|StudentYear, std1|Name,std1| Address,std1|Email
+      {display: block; padding: 2px; margin: 5px; color: blue;
+       border: 1px solid black; background-color: ivory}
+
+std1|StudentID
+      {width: 150px}
+
+std1|Major
+      {width: 250px}
+
+std1|StudentYear
+      {width: 150px}
+
+std1|Name
+      {width: 150px}
+
+std1|Address 
+      {width: 50px}
+
+std1|Email
+      {width: 50px}
+
+
+std1\:Students
+      {font-family: Arial, Helvetica, sans-serif; font-size: 12pt}
+
+std1\:StudentID,std1\:Major, std1\:StudentYear,std1\:Name,std1\:Address,std1\:Email
+      {display: block; padding: 2px; margin: 5px; color: #330000;
+       border: 1px solid black; background-color: ivory}
+
+std1\:StudentID
+      {width: 150px}
+
+std1\:Major
+      {width: 250px}
+
+std1\:StudentYear
+      {width: 50px}
+
+std1\:Name
+      {width: 200px}
+
+std1\:Address 
+      {width: 200px}
+
+std1\:Email
+      {width: 200px}

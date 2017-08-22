@@ -1,0 +1,36 @@
+
+
+h1
+{
+	text-decoration: underline;
+}
+
+h1,h2,h3,h4
+{
+	font-family: Times New Roman, Times, serif;
+}
+
+span
+{
+	text-decoration: underline; 
+	margin-right: 10px;
+}
+
+table
+{
+	width: 600px;
+}
+
+tr
+{
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+	background-image:url(moon_clouds_dark_sky-1920x1080.png);
+background-repeat:no-repeat;
+background-attachment:fix;
+background-size:cover;
+}

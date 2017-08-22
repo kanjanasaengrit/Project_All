@@ -1,0 +1,36 @@
+Student 
+       {font-family: Arial, Helvetica, sans-serif; font-size: 10pt}
+
+HistoryEducation,SubjectID,LanguageName,Talent,Date,DreamJob
+       {display: block; width: 500px; margin: 15px; padding: 5px;
+        border-top: 1px dashed black; border-left: 1px dashed black}
+
+YearS, YearG,GPA,Standard
+       {display: list-item; list-style-type: circle; 
+        padding-left: 10px; margin-left: 15px}
+
+
+@namespace std2 url(http://jacksonelect.com/qualification_info);
+std2|Student 
+       {font-family: Arial, Helvetica, sans-serif; font-size: 10pt}
+
+std2|HistoryEducation,std2|SubjectID,std2|LanguageName,std2|Talent,std2|Date,std2|DreamJob
+       {display: block; width: 500px; margin: 15px; padding: 5px;
+        border-top: 1px dashed black; border-left: 1px dashed black;background-color: ivory
+}
+
+std2|YearS, std2|YearG,std2|GPA,std2|Standard
+       {display: list-item; list-style-type: disc; 
+        padding-left: 10px; margin-left: 25px}
+
+
+std2\:Student 
+       {font-family: Arial, Helvetica, sans-serif; font-size: 10pt}
+
+std2\:HistoryEducation,std2\:SubjectID,std2\:LanguageName,std2\:Talent,std2\:Date,std2\:DreamJob
+       {display: block; width: 500px; margin: 15px; padding: 5px;
+        border-top: 1px dashed black; border-left: 1px dashed black;background-color: ivory}
+
+std2\:YearS, std2\:YearG,std2\:GPA,std2\:Standard
+       {display: list-item; list-style-type: disc; 
+        padding-left: 10px; margin-left: 25px}

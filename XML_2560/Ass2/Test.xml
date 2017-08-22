@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="basic_info.css" ?>
+<?xml-stylesheet type="text/css" href="qualification_info.css" ?>
+<Students>
+	<StudentID>583020377-5</StudentID>
+	<Major>ICT</Major>
+	<Name>Miss  Kanjana  Saengrit</Name>
+	<Address>Khonkaen</Address> 
+	 <Email>S.kanjana@kkumail.com</Email>
+	 <Student>
+	<HistoryEducations>
+		<HistoryEducation> ร.ร.บ้านทุ่งปลากัด อ.สว่างแดนดิน จ.สกลนคร
+		<YearS>2546</YearS> 
+		<YearG>2552</YearG> 
+		<GPA>3.73</GPA>
+		</HistoryEducation>
+		<HistoryEducation> ร.ร.เจริญศิลป์ศึกษา อ.เจริญศิลป์ จ.สกลนคร
+		<YearS>2552</YearS>
+		<YearG>2557</YearG> 
+		<GPA>3.58</GPA>
+		</HistoryEducation> 
+	</HistoryEducations>
+	<FavoriteSujects>
+		<SubjectID>322212
+		<SubjectName>Data Structure โครงสร้างข้อมูล</SubjectName>
+		</SubjectID>
+		<SubjectID>322336
+		<SubjectName>Database System and Design ระบบฐานข้อมูลและการออกแบบ</SubjectName>
+		</SubjectID>
+	</FavoriteSujects>
+	<ComputerLanguage>
+		<LanguageName>SQL
+		<Standard>Good</Standard></LanguageName> 
+		<LanguageName>HTML
+		 <Standard>Good</Standard></LanguageName>
+	</ComputerLanguage>
+	<Talent>กีฬาเปตอง
+	<Explain>เคยเป็นนักกีฬาของโรงเรียนตอนอยู่มัธยมปลาย</Explain></Talent>
+	<Date>05/06/2560
+	 <KindAward>จิตอาสา</KindAward>
+	 <NameAward>ค่ายวิทยาศาสตร์ ณ โรงเรียนเขวาไร่ศึกษา จ.มหาสารคาม</NameAward></Date>
+	<DreamJob>อยากจะเป็นนักวิเคราะห์และออกแบบระบบ และรับข้าราชการ</DreamJob>
+</Student>
+</Students>
